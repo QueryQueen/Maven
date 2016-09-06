@@ -29,9 +29,7 @@ form,fieldset,input,textarea,p,blockquote,th,td {
 	height: 50vh;
 	position: center center;
 	padding: 10px;
-	border-radius: 20px;
-
-	
+	border-radius: 20px;	
 }
 
 .codesnippet{

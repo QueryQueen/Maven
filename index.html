@@ -53,7 +53,7 @@
 <div id="fullpage">
 
 	<div class="section active" id="home">
-		<h1>I &hearts; Maven</h1>
+		<h1>Maven</h1>
 		 <input type="hidden" name="id" value="1" />
 		<p>Build stuff</p>
 		<img id="unicorn" src="imgs/buildtoolmeme.jpg" alt="Build tool meme" />
@@ -61,6 +61,7 @@
 
 	<!-- Hier begint de eerste sectie, met sliders -->
 	<div class="section" id="section1">
+
 		<div class="slide active">
 			<div class="intro">
 				<h1>Maven. A build tool for Java</h1>
@@ -72,7 +73,6 @@
 				<div class="button">How does it work</a></div><br>
 				<div class="button">Why use Maven</div><br>
 				<div class="button">Useful links & documentation</div><br>
-				
 			</div>
 		</div>
 
@@ -107,8 +107,8 @@
 				<p>Sometimes they will depend on different and incompatible versions of the same library.</p>
 				<p>Fixing one dependency will then break another.</p>
 				<p>This is professionally referred to as</p> 
-				<h2>Dependency Hell</h2>
-				<p>You do not want to go there</p> 
+				<h2>Dependency Hell!!</h2>
+				<p>You do not want to go there.</p> 
 				
 			</div>
 		</div>
@@ -116,134 +116,71 @@
 		<div class="slide">
 			<div class="intro">
 				<h1>Maven is not alone</h1>
-				<p>There are more build tools specifically for Java.</p>
-				<h2>Ant (Another Neat Tool) - 2000</h2>
-				<p>Write your build scripts with XML</p>
-				<h2>Maven - 2004</h2>
-				<p>Write your build scripts with XML</p>
-				<p>Download and manage dependencies</p>
-				<h2>Gradle - 2012</h2>
-				<p>Write your build scripts with Groovy</p>
-				<p>Less code than XML</p>
+				<img src="imgs/buildsystems.png" class="cartoon" alt="Build tools"/>
+				<h3>And you also have Grunt, Gulp, SBT, Webpack, Rake, Cake&#127874;</h3>
 			</div>
 		</div>
-
-		<div class="slide">
-			<div class="intro">
-				<h1>Event handling</h1>
-				<p>jQuery is awesome at event handling.</p>
-				<p>Events are being fired by the browser all the time and are great for user interaction.</p>
-				<p>Mouseclicks, using the keyboard and scrolling are examples of events.</p>
-				<img src="imgs/events.png" class="codesnippet" alt="Event handling in jQuery"/>
-				<h3>Examples of event listeners in jQuery</h3>
-				<br>
-				<p>Find a list of events in the <a href="http://api.jquery.com/category/events/" target="_blank"> documentation  </a>to find out about all the options.</p>
-			</div>
-		</div>
-
-		<div class="slide">
-			<div class="intro">
-				<h1>Less code</h1>
-				<p> Compare adding an element with plain js and then with jQuery</p>
-				<img src="imgs/appendjs.png" class="codesnippet" alt="Appending in javascript"/>
-				<h3>Adding an element with plain js</h3>
-				<img src="imgs/appendjq.png" class="codesnippet" alt="Appending in jQuery"/>
-				<h3>Adding an element with jQuery</h3>
-			</div>
-		</div>
-
-		<div class="slide">
-			<div class="intro">
-				<h1>Plug-ins</h1>
-				<p> You are not the only one coding in jQuery!</p>
-				<p> Why not get a head start and use plug-ins.</p>
-				<p> You can check <a href="http://www.webappers.com/?s=jQuery" target="_blank"> webappers </a> or <a href="https://www.smashingmagazine.com/2012/09/useful-javascript-libraries-jquery-plugins-web-developers/" taget='_blank'> Smashing Magazine</a> to see some cool plugins.</p>
-				<a href="http://alvarotrigo.com/fullPage/" target='_blank'><img src="imgs/fullPage.jpg" class="logo" alt="FullPage, a jQuery plugin"/></a>
-				<h3>Make a nice one-page website like this one!</h3>
-				<a href="http://mds.sh/readable/" target='_blank'><img src="imgs/readablelogo.png" class="logo" alt="Readable, a jQuery plugin"/></a>
-				<h3>Turn your content into eyecandy.</h3>
-				<a href="https://twitter.github.io/typeahead.js/" target='_blank'><img src="imgs/typeaheadlogo.png" class="logo" alt="Typeahead, a jQuery plugin"/></a>
-				<h3>Get autocomplete suggestions.</h3>
-			</div>
-		</div>
-
 	</div> 
 		
 	<div class="section" id="section2">
-		<div class="slide">
-			<div class="intro">
-				<h1>AJAX. A concept</h1>
-				<p>AJAX is not a tool, language or technology, but a concept.</p>
-				<p>This concept combines technologies to enable asynchronous communication with the server.</p>
-				<p>Little bits of information are being communicated with the server only if needed.</p>
-				<p>Your website will be quicker and your users will not have to wait for a full page reload each time.</p>
-				<img src="imgs/ajaxmodel.png" height="300px" width="auto" alt="AJAX model"/>	
-			</div>
-		</div>
-
-		<div class="slide">
-			<div class="intro">
-				<h1>When to use AJAX</h1>
-				<p>AJAX was made famous by Google, they use it for google Suggest, Gmail and Google Maps.</p>
-				<p>It is used by populair website such as Facebook and Youtube.</p>
-				<p>Websites with impatient users, expecting high amounts of user specific data.</p>
-				<div class="button">Dynamic content</div><br>
-				<div class="button">Lot of user action</div><br>
-				<div class="button">Investigate SEO implications!</div><br>
-				<p>For a static website you better look at other options to enhance performance</p>
-				<p>Think about caching, local storage, offline storage of data instead</p>
-			</div>
-		</div>
-
-		<div class="slide">
-			<div class="intro">
-				<h1>jQuery &hearts; AJAX</h1>
-				<p>AJAX can be implemented with or without jQuery. But it is much easier with jQuery.</p>
-				<p>Without jQUery, you would have to write different code for different browsers.</p>
-				<p> You can find the full info on the $.ajax object in the <a href="http://api.jquery.com/jquery.ajax/" target="_blank"> jQuerydocumentation </a></p>
-				<img src="imgs/ajaxexample.png" class="codesnippet" alt="Using AJAX with jQuery"/>
-				<h3>The most important start methods for using AJAX with jQuery</h3>
-			</div>
-		</div>
-
-		<div class="slide">
-			<div class="intro">
-				<h1>API &hearts; AJAX</h1>
-				<p>AJAX is most commonly used to interact with API's.</p>
-				<p>That's an Application Programming Interface.</p>
-				<p>Want to know more? Google is your friend.</p>
-				<br>
-				<img src="imgs/apiajax.png" class="codesnippet" alt="Using AJAX with API's"/>
-				<h3>Pseudocode for using AJAX to interact with an API</h3>
-			</div>
+		<div class="intro">
+			<h1>How does it work</h1>
+			<p>The most important file is the POM (Project Object Model).</p>
+			<p>POM contains the structure of the project, and it is up to Maven to build it, based on this info.</p>
+			<p>A POM file does not contain code, it is an XML representation of a Maven project.</p>
+			<p>I know it is vague. But understanding it all would take the magic out.</p>
 		</div>
 	</div>
+
 
 	<div class="section" id="section3">
-		<div class="intro">
-			<h1>Hands On</h1>
-			<p>The best way to learn jQuery is to type code.</p>
-			<p>Online courses are great! Recommended courses:</p>
-			<br>
-			<a href="https://www.codecademy.com/" target="_blank"> <img src="imgs/codecademy.png" class="logo" alt="Codecademy logo"/></a>
-			<h3>Start with the online jQuery course on codecademy.</h3>
-			<br>
-			<a href="https://www.edx.org/course/introduction-jquery-microsoft-dev208x-1" target="_blank"> <img src="imgs/edXlogo.jpg" class="logo" alt="edX logo"/></a>
-			<h3>You can follow up with a course on edX</h3>
-			<br>
-			<a href="https://www.codeschool.com/" target="_blank"> <img src="imgs/codeschool.png" class="logo" alt="Codeschool logo"/></a>
-			<h3>Or maybe you prefer codeschool</h3>
-			<p></p>
+		<div class="slide">
+			<div class="intro">
+				<h1>When to use build tools</h1>
+				<p>It is always reccommended to use a build tool.</p>
+				<p>Advantages of build tools in general are:</p>
+				<ul>
+					<li>Reproducable build: not depending on IDE or computer</li>
+					<li>Saves a lot of time compared to manual build</li>
+					<li>Less human typing = less chance of mistakes</li>
+					<li>Runs your unit tests for you</li>
+					<li>Automatically deploy new builds - always up to date</li>
+					<li>Autmatically check if you did not break anything</li>
+				</ul>
+			</div>
+		</div>
+		<div class="slide">
+			<div class="intro">
+				<h1>Why Maven?</h1>
+				<p>Maven is specifically known for dependency management</p>
+				<p>and project management options.</p>
+				<ul>
+					<li>Uniformity: all Maven projects work the same way</li>
+					<li>Dependencies are managed for you</li>
+					<li>Document structure is forced / standardised</li>
+					<li>Provides project information such as versions etc</li>
+					<li>Maven Archetypes: project templates that others can use </li>
+				</ul>
+			</div>
+		</div>
+		<div class="slide">
+			<div class="intro">
+				<h1>Why not?</h1>
+				<p>Maven is not very flexible.</p>
+				<br>
+				<img src="imgs/mavensaysno.jpg" class="unicorn" alt="Maven says no"/>
+				<h3>The structure convention is forced.</h3>
+			</div>
 		</div>
 	</div>
-
 
 	<div class="section" id="section4">
 		<div class="intro">
 			<h1>Useful Links</h1>
-			<p> Get started and be a jQuery pro soon!</p>
-			<p> <a href="http://api.jquery.com/" target="_blank"> jQuery official documentation</a> & 
-			<a href="http://www.w3schools.com/jquery/" target="_blank"> W3schools</a> </p>
+			<p> Quick start Maven with Spring Boot.</p>
+			<p></p>
+			<p> <a href="http://maven.apache.org/guides/" target="_blank"> Maven official documentation</a> & how to use 
+			<a href="https://spring.io/guides/gs/maven/" target="_blank">Maven with Spring Boot.</a></p>
 			<br>
 			<img src="imgs/google.jpg" class='cartoon' alt="Google is your friend"/>
 			<h3>Remember: Google is your friend.</h3>
